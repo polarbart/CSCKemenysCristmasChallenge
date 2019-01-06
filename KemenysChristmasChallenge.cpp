@@ -1,7 +1,3 @@
-// CSC.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include "pch.h"
 #include <intrin.h>
 #include <iostream>
 #include <algorithm>
@@ -212,5 +208,5 @@ int main() {
 	check_all();
 
 	std::cout << double(std::clock() - begin) / CLOCKS_PER_SEC << "s" << std::endl;
-	std::cout << calls << std::endl << std::endl;
+	std::cout << calls << std::endl;
 }
